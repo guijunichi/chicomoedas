@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stonks</title>
+</head>
+<body style="background-image: url(./src/chico1.png);color: aqua; font-size: xx-large; background-repeat: no-repeat; background-size: cover;">
+    <div style="display: grid; justify-content: center;">
+        <h1>Chico Moedas Simulator</h1>
+        <form action="" id="form" style="display: grid;">
+            <label for="">Converter:</label>
+            <input type="number" id="converter">
+            <select name="moeda1" id="moeda1">
+                <option value="USD">Dólar Americano</option>
+                <option value="BRL">Real Brasileiro</option>
+                <option value="EUR">Euro</option>
+                <option value="JPY">Iene Japonês</option>
+                <option value="ARS">Peso Argentino</option>
+            </select>
+            <label for="">Para:</label>
+            <select name="moeda2" id="moeda2">
+                <option value="USD">Dólar Americano</option>
+                <option value="BRL">Real Brasileiro</option>
+                <option value="EUR">Euro</option>
+                <option value="JPY">Iene Japonês</option>
+                <option value="ARS">Peso Argentino</option>
+            </select>
+            <button name="button">Consultar</button>
+            <input type="text" id="resultado" readonly>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+    </body>
+</html>
